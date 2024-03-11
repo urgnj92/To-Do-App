@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    align-items: center;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-position-x: center;
+    color: darkcyan;
+    display: flex;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    /* min-height: 100vh; */
+}
+
+main {
+    align-content: center;
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px #EAE7E7;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+header,
+footer {
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    font-family: "Dosis", sans-serif;
+}
+
+h1 {
+    align-items: center;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    align-items: center;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    box-shadow: 3px 5px 3px #EAE7E7;
+    display: grid;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    word-break: break-all;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit {
+    background-color: khaki;
+    border-color: khaki;
+    border-radius: 5px;
+}
+
+.edit:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    border-radius: 5px;
+}
+
+.edit i {
+    color: chocolate;
+}
+
+.edit i:hover {
+    color: khaki;
+}
+
+.back {
+    background-color: lavender;
+    border-color: lavender;
+    border-radius: 5px;
+    color: blueviolet;
+}
+
+.back:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 5px;
+    color: lavender;
+}
+
+.task {
+    margin: 20px;
+}
+
+
+
+/* sp */
+@media screen and (max-width: 767px) {
+    body {
+        width: auto;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+}

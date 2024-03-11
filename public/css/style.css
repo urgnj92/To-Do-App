@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    align-items: center;
+    color: darkcyan;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+main {
+    align-items: stretch;
+    align-content: center;
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px #EAE7E7;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: auto;
+    width: 800px;
+}
+
+header,
+footer {
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    align-items: center;
+    display: grid;
+}
+
+h1,
+.task {
+    text-align: center;
+}
+
+input {
+    border: solid 1px;
+    border-color: darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+/* table {
+    max-width: 400px;
+} */
+
+.wrapper .contents p {
+    align-items: center;
+    box-shadow: 3px 5px 3px #EAE7E7;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: grid;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    word-break: break-all;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contents {
+    width: auto;
+}
+
+.task label .error_message p {
+    color: red;
+}
+
+
+/* button */
+.buttons {
+    align-content: space-around;
+    /* margin: 0 auto; */
+}
+
+.add {
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 5px;
+    color: darkcyan;
+}
+
+.add:hover {
+    background-color: darkcyan;
+    border-color: darkcyan;
+    border-radius: 5px;
+    color: aqua;
+}
+
+.done {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-radius: 5px;
+    color: darkgreen;
+}
+
+.done:hover {
+    color: aquamarine;
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: khaki;
+    border-color: khaki;
+    border-radius: 5px;
+}
+
+.edit:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    border-radius: 5px;
+}
+
+.edit a {
+    color: chocolate;
+}
+
+.edit a:hover {
+    color: khaki;
+}
+
+.delete {
+    color: red;
+    background-color: lightpink;
+    border-color: lightpink;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    color: lightpink;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.task {
+    margin: 20px;
+}
+
+.footer {
+    font-family: "Dosis", sans-serif;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+/* sp */
+@media screen and (max-width: 767px) {
+    body {
+        width: auto;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+}
